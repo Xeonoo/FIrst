@@ -14,6 +14,18 @@ struct ContentView: View {
         Text("Hello Cris").foregroundColor(Color.white).padding().background(Color.green
             .border(Color .blue, width: 8)).cornerRadius(7.5)
         
+        // MARK: - chall2
+        
+        VStack {
+           
+            Image("logo").resizable().aspectRatio(contentMode: .fit)
+            
+            Text("Hello Cris").foregroundColor(Color.white).padding().background(Color.green)
+            
+            
+        }
+         
+        
     }
 }
 
